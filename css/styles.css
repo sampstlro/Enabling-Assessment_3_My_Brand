@@ -1,0 +1,414 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: gray;
+}
+
+p1 {
+  color: black;
+}
+
+/*Title Section*/
+#title {
+  background-color: #2C3639;
+  padding: 3% 5% 5%;
+}
+
+.brand-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.links {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-list {
+  padding: 0 18px;
+}
+
+.nav-bar {
+  padding: 0 0 4.5rem;
+}
+
+.title-quote {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0%;
+}
+
+.fab-icon {
+  margin: 8px;
+}
+
+.title-img {
+  border-radius: 40px;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 20%
+}
+
+/*Testimonials Section*/
+#testimonials {
+  border-radius: 40% text-align: center;
+  color: white;
+  background-color: #3F4E4F;
+}
+
+.testimonial-image {
+  border-radius: 20%;
+  height: 500px;
+  width: 550px;
+  margin: 20px 25%;
+}
+
+.testimonial-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 14%;
+}
+
+/*About Us Section*/
+#about_us {
+  text-align: center;
+}
+
+.about_us_img {
+  text-align: center;
+  border-radius: 20%;
+  height: 50%;
+  width: 50%;
+  margin: 20px 30%;
+}
+
+.about-us-text {
+  margin: 2%;
+  text-align: left;
+  color: black;
+  font-size: 50px;
+}
+
+.feature-top {
+  text-align: center;
+  color: black;
+  margin-left: 18%;
+  font-weight: 900;
+}
+
+/*Features Section*/
+#features {
+  padding: 7% 14%;
+  text-align: center;
+  color: white;
+  background-color: #A27B5C;
+}
+}
+
+.fa-icon {
+  color: #2C3639;
+  margin: 1rem;
+}
+
+.fa-icon:hover {
+  color: #2C3639;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-col {
+  padding: 5%
+}
+
+/*Press Section*/
+#press {
+  border-radius: 30px;
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 8%;
+  margin: 4px 2px 4px;
+}
+
+/*Pricing Section*/
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-heading, .price-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Call to Action Section*/
+#cta {
+  background-color: #A27B5C;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.cta-title{
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.Last-quote {
+  font-weight: 900;
+  font-size: 3.5rem line-height: 1.5;
+  color: black;
+}
+
+.donate-button, .sign-up-button {
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
+  border-radius: 15px;
+  color: #505739;
+}
+
+/*FootersSection*/
+#footer {
+  text-align: left;
+  padding: 2% 7%;
+}
+
+.foot-icon {
+  color: black;
+  padding: 20px 10px;
+}
+
+.Copyright {
+  text-align: center;
+}
+
+.Copyright {
+  margin-left: auto;
+}
+
+/*Para maadd to lagyan mometachar set dim sa html head*/
+@media (max-width: 1440px) {
+  .navbar {
+    padding: 0 5rem 1rem;
+  }
+
+  .about_us {
+    font-size: 30px;
+    padding: 0 100rem 1rem;
+  }
+
+  .title-quote {
+    font-size: 3rem;
+  }
+
+  .btn-download {
+    margin-right: 6px;
+  }
+  h2 {
+    margin: -6% 0 8%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 1rem 1rem;
+  }
+
+  .title-quote {
+    font-size: 3rem;
+  }
+
+  .title-img {
+    margin-right: -10px;
+  }
+
+  .btn-download {
+    margin-right: 6px;
+  }
+
+  h2 {
+    margin: -6% 0 8%;
+  }
+
+  .feature-top {
+    text-align: center;
+    color: black;
+    margin-left: -10px;
+    font-weight: 900;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:768px) {
+  .title-img {
+    position: relative;
+    left: 145px;
+    width: 60%;
+  }
+
+  .column-one {
+    text-align: center;
+  }
+
+  .testimonial-image {
+    border-radius: 20%;
+    height: 300px;
+    width: 350px;
+    margin: 20px 20%;
+  }
+
+  .about-us-text {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  p {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .feature-col-third {
+    text-align: center;
+  }
+  .row{
+    text-align: left;
+  }
+
+}
+
+@media(max-width:425px) {
+  .title-img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20%;
+  }
+
+  .column-one {
+    text-align: center;
+  }
+
+  .testimonial-image {
+    border-radius: 20%;
+    height: 300px;
+    width: 50px;
+    margin: 20px -100%;
+  }
+
+  .about-us-text {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  p {
+    text-align: center;
+    margin-left: 10%;
+  }
+  .feature-col-first {
+    text-align: center;
+  }
+  .feature-col-second {
+    text-align: center;
+  }
+
+  .feature-col-third {
+    text-align: center;
+  }
+  .row{
+    text-align: left;
+  }
+  .iconic{
+    text-align: center;
+  }
+  .price-heading, .price-text{
+     font-weight: 20;
+     font-size: 30px;
+     line-height: 1.5;
+
+
+}
+
+@media(max-width: 375px) {
+  .title-quote{
+    font-size: 10px;
+  }
+  .title-img {
+    height: 150px;
+    width: 100px;
+    margin-left: -85%;
+  }
+  .testimonial-image{
+    border-radius: 20%;
+    height: 300px;
+    width: 195px;
+    margin: 20px 10%;
+  }
+  #pricing{
+    padding: 30px;
+  }
+}
+
+@media(max-width: 320px) {
+  .title-quote{
+    font-size: 30px;
+  }
+  .title-img {
+    height: 100px;
+    width: 100px;
+    margin-left: -15%;
+  }
+  .testimonial-image{
+    border-radius: 20%;
+    height: 300px;
+    width: 195px;
+    margin: 20px 10%;
+  }
+  #pricing{
+    padding: 30px;
+  }
+  .about_us_img{
+    margin-left: 90px;
+  }
+  .about-us-text{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  p{
+      font-size: 15px;
+      margin-right: 40px;
+  }
+  .cta-title{
+    margin-top: 80px;
+  }
+  .btn-download{
+    margin-top: 20px;
+  }
+}
